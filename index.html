@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #email{
+            width: 300px;
+            height: 20px;
+        }
+        #lastname{
+            margin-left: 10px;
+        }
+        #name{
+            width:200px;
+            height: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <form>
+<centre>
+    <div class="header">
+        <label for="Name" style="font-weight: bold;" >Name<span style="color:red;">*</span></label><br>
+        <input type="text" name="name" id="name" placeholder="firstname">
+        <input type="text" name="lastname" id="name" placeholder="lastname"><br><br>
+        <label for="Email" style="font-weight: bold;">Email<span style="color: red;">*</span></label><br>
+        <input type="text" name="email" id="email" placeholder="Email">
+    </div>
+</centre>
+        <div class="question" id="q1">
+            <p><b>Your Experience </b><span style="color: red;">*</span></p>
+            <i style="font-size:24px ; color:rgb(248, 197, 28)"  class="fa">&#xf005</i>
+            <i style="font-size:24px ; color:rgb(248, 197, 28)"  class="fa">&#xf005</i>
+            <i style="font-size:24px ; color:rgb(248, 197, 28)"  class="fa">&#xf005</i>
+            <i style="font-size:24px ; color:rgb(248, 197, 28)"  class="fa">&#xf005</i>
+            <i style="font-size:24px ; color:rgb(248, 197, 28)"  class="fa">&#xf005</i>
+    </div>
+        
+        <div class="text">
+            <h4>Overall , how would you rate your experience with us</h4>
+        </div>
+        <div class="satisy">
+            <p style="font-weight: bold;">
+                How satisifed are you with<span style="color: red;">*</span></p>
+        </div>
+        
+    </form>
+    <table style="width: 90%;">
+    <tr>
+        <thead> 
+     <th></th>
+     <th>Very Unsatisifed</th> 
+     <th>Unsatisifed</th>
+     <th>Netural</th>
+     <th>Satisifed</th>
+     <th>very Satisifed</th>
+    </thead>
+     <tbody>
+     </tr>
+     <tr>
+        <th class="vh">Purchase</th>
+        <td>
+            <input type="radio" name="1">
+        </td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+     </tr>
+     <tr>
+        <th class="vh">Service</th>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        <td> <input type="radio" name="1"></td>
+        </tr>
+        <tr>
+            <th class="vh">Company Overall</th>
+           <td> <input type="radio" name="1"></td>
+           <td> <input type="radio" name="1"></td>
+           <td> <input type="radio" name="1"></td>
+           <td> <input type="radio" name="1"></td>
+           <td> <input type="radio" name="1"></td>
+        </tr>
+        
+    </table>
+    <p style="font-weight: bold; font-size: larger;">How likely are you with<span style="color:red">*</span></p>
+        
+            <table style="width: 90%;">
+                <tr>
+                    <thead> 
+                 <th></th>
+                 <th>Very Unsatisifed</th> 
+                 <th>Unsatisifed</th>
+                 <th>Netural</th>
+                 <th>Satisifed</th>
+                 <th>very Satisifed</th>
+                </thead>
+                 <tbody>
+                 </tr>
+                 <tr>
+                    <th class="vh">Buy from us again</th>
+                    <td>
+                        <input type="radio" name="1">
+                    </td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                 </tr>
+                 <tr>
+                    <th class="vh">Recommend our <br>products to others</th>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    <td> <input type="radio" name="1"></td>
+                    </tr>
+                    <tr>
+                        <th class="vh">Recommend our<br>
+                            company to others</th>
+                       <td> <input type="radio" name="1"></td>
+                       <td> <input type="radio" name="1"></td>
+                       <td> <input type="radio" name="1"></td>
+                       <td> <input type="radio" name="1"></td>
+                       <td> <input type="radio" name="1"></td>
+                    </tr>
+           
+            </table>
+            <div class="footer">
+                <p style="font-weight: bold; font-size: large;">Addition comments or suggestions</p>
+                <textarea name="textare" id="textare" cols="80" rows="10">
+    
+                </textarea><br>
+
+                <button type="button" id="button"> submit</button>
+            </div>
+</body>
+</html>

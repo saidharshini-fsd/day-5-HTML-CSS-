@@ -1,0 +1,90 @@
+
+        .body {
+            margin: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        #email {
+            width: 300px;
+            height: 20px;
+        }
+        
+        #lastname {
+            margin-left: 10px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            #email {
+                width: 100%;
+            }
+            
+            #lastname {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+            
+            .text, .satisy {
+                font-size: medium;
+            }
+        }
+        
+        table {
+            border-collapse: collapse;
+            border: 1px solid #ffffff;
+            margin-right: 10px;
+        }
+        
+        .vh {
+            text-align: left;
+            margin-left: 10px;
+            font-weight: normal;
+        }
+        
+        td {
+            text-align: center;
+            padding: 15px;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #cacaca;
+        }
+        
+        .table2 {
+            margin-top: 60px; /* Adjusted for better spacing */
+            margin-right: 10px;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            font-size: medium;
+        }
+        
+        #button {
+            width: 100px;
+            height: 40px;
+        }
+        
+        #button:hover {
+            background: rgb(199, 185, 185);
+            color: #917a7a;
+            cursor: pointer;
+        }
+        
+        @media screen and (max-width: 768px) {
+            table {
+                margin-top: 10px; /* Adjust the top margin for smaller screens */
+            }
+        
+            .table2 {
+                margin-top: 30px; /* Adjust the top margin for smaller screens */
+            }
+        
+            .footer {
+                margin-top: 10px; /* Adjust the top margin for smaller screens */
+            }
+        
+            th, td {
+                padding: 8px; /* Reduce padding for smaller screens */
+            }
+        }
+    
